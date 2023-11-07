@@ -7,11 +7,12 @@
 <style>
 
 /********** Base styles **********/
-* {
+<!--* {
   box-sizing: border-box;
-}
+}-->
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
@@ -34,7 +35,6 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -78,7 +78,6 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -121,17 +120,19 @@ p {
 </style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <section class="col-lg-4 col-md-6">
+    <!-- <h2>Title 1</h2> -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias in facere nostrum. Porro vel maxime ipsum assumenda ducimus adipisci impedit consequuntur odit dolor a, voluptatem at qui, nesciunt optio veritatis!</p>
+  </section>
+  <section class="col-lg-4 col-md-6">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sapiente officia cupiditate minus ipsum vitae consequuntur! Delectus voluptas, odio saepe neque quo voluptate, corporis amet quidem ipsam eveniet velit totam?</p>
+  </section>
+  <section class="col-lg-4 col-md-12">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis autem officiis libero error deleniti dolor, saepe dolore eveniet delectus aliquid? Et eveniet assumenda recusandae! Voluptatum itaque sit vel necessitatibus perferendis?</p>
+  </section>
 </div>
 
 </body>
